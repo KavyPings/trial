@@ -89,12 +89,14 @@ def checktie():
     global gamerun
     if ' ' not in board and winner == None:
         print("TIE!")
+        print("Game complete")
         gamerun = False
 
 def checkwin(board):
     global winner, gamerun
     if checkcol(board) or checkrow(board) or checkdiag(board):
         print("Winner is: "+winner)
+        print("GAME COMPLETE")
         gamerun = False
 
 boardlook(board)
@@ -104,5 +106,3 @@ while gamerun == True:
     switch()
     checkwin(board)
     checktie()
-
-
