@@ -106,3 +106,5 @@ while gamerun == True:
     switch()
     checkwin(board)
     checktie()
+
+
