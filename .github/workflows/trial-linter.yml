@@ -6,4 +6,4 @@ on:
 
 jobs:
   call-linter:
-     uses: KavyPings/trial/.github/workflows/python-linting.yml@main
+     uses: KavyPings/.github/.github/workflows/python-linting.yml@main
