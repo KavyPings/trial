@@ -4,4 +4,4 @@ on: [push, pull_request]
 
 jobs:
   call-linter:
-     uses: KavyPings/.github/.github/workflows/python-linting.yml@main
+     uses: KavyPings/.github/workflows/python-linting.yml@main
