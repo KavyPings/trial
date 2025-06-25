@@ -1,8 +1,9 @@
 name: Test Lint
 
 on: 
-  workflow_call: {}
-  
+  push:
+  pull_request:
+
 jobs:
   call-linter:
      uses: KavyPings/trial/.github/workflows/python-linting.yml@main
